@@ -1,0 +1,70 @@
+/* Import Rubik font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f1ee;
+  color: #333;
+}
+
+.hero {
+  background-color: #e0dcd5;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Chair image with soft shadow and rounded shape */
+.hero-image {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Hero heading with Rubik font */
+.hero-title {
+  font-family: 'Rubik', sans-serif; /* Apply Rubik font */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #3c3c3b;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #6b5f55;
+}
+
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: rgb(114, 101, 101);
+}
+
+.cta-button {
+  background-color: #8b7e74;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.cta-button:hover {
+  background-color: #75695f;
+}
